@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Xây dựng hàm giải phương trình bậc nhất, biết tham số là các hệ số nguyên a, b. -->
+<!--Hàm trả về nghiệm của phương trình theo tham số đã cho.-->
+<!--Viết chương trình sử dụng hàm vừa xây dựng để giải phương trình bậc nhất với hệ số a = 5; b = 8.-->
+<script>
+    //f(x) = ax +b =0
+    function firstDegreeEquation(a,b){
+        if(a === 0 && b === 0){
+           return  document.write("phương trình có vô số nghiệm");
+        }else if(a === 0 && b !== 0 ){
+            return  document.write("phương trình vô nghiệm")
+        }else {
+            return (-b) / a
+        }
+    }
+
+    console.log(firstDegreeEquation(5,8))
+</script>
+
+</body>
+</html>
