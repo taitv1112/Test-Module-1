@@ -26,13 +26,14 @@
             this.weight = weight;
         }
         showNameAndWeight(){
-                return document.write("Tên:  " + this.name + " Cân nặng là : " + this.weight)
+                return document.write("Tên:  " + this.name + " Cân nặng là : " + this.weight +"<br>")
         }
     }
     let objAnimal1 = new Animal('Elephant',45.6)
     objAnimal1.showNameAndWeight();
     let objAnimal2 = new Animal('Madonal',46);
     objAnimal2.setName("Mouse")
+    objAnimal2.showNameAndWeight()
 </script>
 </body>
 </html>
