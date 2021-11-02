@@ -16,11 +16,14 @@
         }else if(a === 0 && b !== 0 ){
             return  document.write("phương trình vô nghiệm")
         }else {
-            return (-b) / a
+            return document.write("Nghiệm của phương trình là: x = " + (-b/a) + " <br>")
         }
     }
+    let number1 = prompt("Nhập số nguyên a: ");
+    let numberb = prompt("Nhập số nguyên b: ");
+    firstDegreeEquation(number1,numberb);
 
-    console.log(firstDegreeEquation(5,8))
+    firstDegreeEquation(5,8)
 </script>
 
 </body>
